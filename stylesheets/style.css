@@ -1,0 +1,63 @@
+body, html {
+  font-family: 'Noto Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#landingpage {
+  background: url("/assets/background.png");
+  justify-content: center;
+  align-items: center;
+  margin: 0 64px;
+  display: flex;
+  height: 100vh;
+}
+
+.intro-information {
+  flex: 1;
+  font-family: Roboto, sans-serif;
+}
+
+.front-image {
+  flex: 1;
+}
+
+h1 {
+  margin: 0;
+  color: #333333;
+  font-weight: 100;
+}
+
+.name, .name-bold {
+  font-size: 64px;
+}
+
+.name {
+  font-weight: 100;
+}
+
+.name-bold {
+  font-weight: bolder;
+}
+
+h2 {
+  margin: 0;
+}
+
+.name-tag {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.action-button {
+  margin-top: 20px;
+}
+
+.connect-linkedin {
+  text-decoration: none;
+  color: white;
+  border: none;
+  padding: 10px;
+  background: #1DA1F2;
+  border-radius: 3px;
+}
